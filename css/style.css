@@ -18,6 +18,57 @@ body {
     justify-content: center;
 }
 
+main {
+    padding-top: 70px;
+}
+
+.introduction-text h3 {
+    margin-bottom: 0; /* Ou toute autre valeur qui vous convient. */
+}
+
+.introduction-text p {
+    margin-top: 8px; /* Ou toute autre valeur qui vous convient. */
+}
+
+.introduction-text {
+    margin-bottom: 50px;
+}
+
+
+.searchbar {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar form {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar i {
+    color: black;
+    margin-right: 10px;
+}
+
+.searchbar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchbar button {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 .main-container {
     width: 100%;
     max-width: 1440px;
