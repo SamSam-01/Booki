@@ -106,7 +106,30 @@ main {
     cursor: pointer;
 }
 
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
 
+.filters b {
+    margin-right: 10px;
+}
+
+.theme {
+    padding: 10px 20px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.theme:hover {
+    background-color: var(--filter-bg-color);
+    cursor: pointer;
+}
 
 .main-container {
     width: 100%;
