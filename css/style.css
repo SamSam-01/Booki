@@ -148,6 +148,7 @@ a {
     border: solid 1px var(--main-bg-color);
     border-radius: 20px;
     align-items: center;
+    display: flex;
     gap: 5px;
 }
 
@@ -406,7 +407,7 @@ footer {
 
     .populaires-cards a {
         top: 0;
-        width: 33%;
+        width: 31%;
     }
 
     .populaires-cards .card-title {
