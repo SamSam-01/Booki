@@ -480,21 +480,38 @@ footer {
 
     /****** Searchbar ***********/
 
+    .introduction-text {
+        font-size: large;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /****** Searchbar ***********/
+
     .searchbar {
-        width: 100%;
-        margin: 15px 0;
+        margin: 15px;
+        width: 89%;
     }
 
     /****** Filters ***********/
 
-    .filters, .info, .theme-container {
-        flex-direction: column;
-        gap: 10px;
+    .filters, .info {
+        margin: 15px;
     }
 
-    .theme {
-        margin: 5px 0;
+    .theme-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Ajouté pour l'espacement */
     }
+    
+    .theme {
+        flex: 0 0 calc(50% - 10px); /* Modifié flex: 1 0 en flex: 0 0 */
+        margin: 5px;
+        box-sizing: border-box; /* Ajouté pour inclure la marge et le padding dans la largeur */
+    }
+    
+    
 
     /****** Hebergement and populaires ***********/
 
@@ -553,5 +570,13 @@ footer {
     .footer-column {
         margin: 15px 0;
         text-align: left;
+    }
+
+    .activity-card-container a {
+        margin: 15px;
+        width: 80%;
+    }
+    .activity-card img {
+        height: 150px;
     }
 }
